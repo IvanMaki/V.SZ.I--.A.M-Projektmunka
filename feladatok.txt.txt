@@ -1,3 +1,4 @@
 A feladat:Milyen hosszú ideig tart a lista lejátszása?
 B feladat:Van-e K-másodpercnél hosszab szám a listán?
 C feladat: Ha miden 5. zeneszám után megállunk pihenni , méghozzá annyit, amennyi maradt még az adott percből és tovább futunk. Mennyi ideig futunk?
+D feladat: Ha egy kört 3 perc alatt futunk le? akkor K-ad zeneszám alatt a hányadik körünket futjuk(beleértve a pihenőket is)
