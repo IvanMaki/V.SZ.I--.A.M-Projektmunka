@@ -1,1 +1,2 @@
 A feladat:Milyen hosszú ideig tart a lista lejátszása?
+B feladat:Van-e K-másodpercnél hosszab szám a listán?
