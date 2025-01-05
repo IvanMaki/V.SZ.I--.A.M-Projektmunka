@@ -1,14 +1,14 @@
-t = [100, 110, 200, 150, 300, 180, 150, 150, 100, 100]
+t = [100, 110, 200, 150, 300, 180, 150, 150, 100, 100]  
 n = int(input())
-ossz_masodperc = 0  
 
-for i in range(n):
-    ossz_masodperc += t[i]  
-    if (i + 1) % 5 == 0:  
-        maradek = ossz_masodperc % 60  
-        ossz_masodperc += maradek  
+összpihenőidő=0
+mostaniido=0
 
-minutes = ossz_masodperc // 60
-seconds = ossz_masodperc % 60
+for i in range(len(t)):
+    mostaniido+=t[i]
+    if (i+1)%5==0:
+        maradoido=60-(mostaniido%60)
+        összpihenőidő+=maradoido
+        mostaniido+=maradoido
 
-print(f"Teljes futásidő: {minutes} perc {seconds} másodperc")
+print(f"A teljes futási idő pihenőkkel: {mostaniido} másodperc")
