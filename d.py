@@ -1,20 +1,15 @@
 t = [100, 110, 200, 150, 300, 180, 150, 150, 100, 100]  
 n = int(input())
-k = 4
 
+hanyadik=4
+köridő=180
+jelenlegiidő= 0
+teljesítettkörök= 0
 
-ossz_ido_kig = 0
-pihi = 0
+for i in range(hanyadik):
+    jelenlegiidő+=t[i]
+    while jelenlegiidő>=köridő:
+        teljesítettkörök+=1
+        jelenlegiidő-=köridő
 
-for i in range(k):
-    ossz_ido_kig += t[i]
-    if (i + 1) % 5 == 0: 
-        maradek_mp = ossz_ido_kig % 60
-        pihi += maradek_mp
-        ossz_ido_kig += maradek_mp
-
-osszes_ido_pihenessel_egyutt = ossz_ido_kig + pihi
-
-
-korok = osszes_ido_pihenessel_egyutt // 180
-print(f"A {k}. zeneszám alatt a(z) {korok+1}. kört futjuk éppen")
+print(f"A(z) {hanyadik}-edik/-adik zeneszám alatt a(z) {teljesítettkörök+1}. körünket futjuk.")
