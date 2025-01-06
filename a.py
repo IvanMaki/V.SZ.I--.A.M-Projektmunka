@@ -65,7 +65,7 @@ while valasz!="9":
         print("A tömb elemei:", t)
 
 
-
+##########################
 
 
     if valasz=="8" and len(t)>0:
