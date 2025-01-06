@@ -75,7 +75,7 @@ while valasz!="9":
         for i in range(len(t)):
             osszeg+=t[i]
         print(f"A) {osszeg} mp = {osszeg//60} perc és {osszeg%60} másodperc")
-
+################
 
 
     if valasz=="9":
