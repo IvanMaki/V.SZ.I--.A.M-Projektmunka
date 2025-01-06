@@ -20,7 +20,7 @@ while valasz!="10":
         print("8 - a feladat")
         print("9 - b feladat")
         print("10 - Kilépés")
-
+#
     valasz=input("Menüpont száma: ")
 
 
