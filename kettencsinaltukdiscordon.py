@@ -25,7 +25,7 @@ while valasz!="12":
 
     valasz=input("Menüpont száma: ")
 
-
+#
 
     if valasz=="1":
         t=[int(input("Adj meg egy számot: ")) for j in range(int(input("Hány elemet szeretnél? ")))]
