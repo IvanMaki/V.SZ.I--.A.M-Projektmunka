@@ -66,7 +66,7 @@ while valasz!="10":
         print("A tömb elemei:", t)
 
 
-
+#feladatok
 
 
     if valasz=="8" and len(t)>0:
