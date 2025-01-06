@@ -6,7 +6,7 @@ n = int(input())
 t=[]
 valasz=""
 
-while valasz!="12":
+while valasz!="10":
     print("Válassz egy menüpontot:")
     if len(t)==0:
         print("1 - Tömb feltöltése billentyűzetről")
@@ -20,11 +20,9 @@ while valasz!="12":
         print("5 - Adott elem módosítása")
         print("6 - Adott elem törlése")
         print("7 - Tömb kiírása")
-        print("8 - a feladat")
-        print("9 - b feladat")
-        print("10 - c feladat")
-        print("11 - d feladat")
-        print("12 - Kilépés")
+        print("8 - c feladat")
+        print("9 - d feladat")
+        print("10 - Kilépés")
 
     valasz=input("Menüpont száma: ")
 
@@ -71,7 +69,7 @@ while valasz!="12":
         print("A tömb elemei:", t)
 
 
-if valasz=="11" and len(t)>0:
+if valasz=="9" and len(t)>0:
         print("d feladat:")
 
 hanyadik=4
