@@ -1,5 +1,5 @@
 import random
-
+################# ez az összes
 t=[]
 valasz=""
 
