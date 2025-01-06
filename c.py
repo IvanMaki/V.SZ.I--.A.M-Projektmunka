@@ -20,11 +20,9 @@ while valasz!="12":
         print("5 - Adott elem módosítása")
         print("6 - Adott elem törlése")
         print("7 - Tömb kiírása")
-        print("8 - a feladat")
-        print("9 - b feladat")
-        print("10 - c feladat")
-        print("11 - d feladat")
-        print("12 - Kilépés")
+        print("8 - c feladat")
+        print("9 - d feladat")
+        print("10 - Kilépés")
 
     valasz=input("Menüpont száma: ")
 
@@ -71,7 +69,7 @@ while valasz!="12":
         print("A tömb elemei:", t)
 
 
-if valasz=="10" and len(t)>0:
+if valasz=="8" and len(t)>0:
     print("c feladat")
 
 összpihenőidő=0
