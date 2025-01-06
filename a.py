@@ -2,7 +2,7 @@ import random
 
 t=[]
 valasz=""
-
+##
 while valasz!="9":
     print("Válassz egy menüpontot:")
     if len(t)==0:
