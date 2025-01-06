@@ -93,7 +93,7 @@ while valasz!="10":
         else:
             print("B) Nem volt a tömbben")
 
-
+############
 
     if valasz=="10":
         print("Kilépés a programból.")
